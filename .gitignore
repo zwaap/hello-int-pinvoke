@@ -1,0 +1,12 @@
+*.suo
+.DS_Store
+src/HelloInt.Managed/HelloIntApp.Android/bin/
+src/HelloInt.Managed/HelloIntApp.Android/obj/
+src/HelloInt.Managed/HelloIntApp.iOS/bin/
+src/HelloInt.Managed/HelloIntApp.iOS/obj/
+src/HelloInt.Managed/HelloIntLib.Android/bin/
+src/HelloInt.Managed/HelloIntLib.Android/obj/
+src/HelloInt.Managed/HelloIntLib.iOS/bin/
+src/HelloInt.Managed/HelloIntLib.iOS/obj/
+src/HelloInt.Native/libs/
+src/HelloInt.Native/obj/

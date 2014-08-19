@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("HelloIntPInvoke.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("HelloIntApp.Resource", IsApplication=true)]
 
-namespace HelloIntPInvoke
+namespace HelloIntApp
 {
 	
 	
@@ -26,8 +26,6 @@ namespace HelloIntPInvoke
 		
 		public static void UpdateIdValues()
 		{
-			global::HelloInt.Resource.String.ApplicationName = global::HelloIntPInvoke.Resource.String.ApplicationName;
-			global::HelloInt.Resource.String.Hello = global::HelloIntPInvoke.Resource.String.Hello;
 		}
 		
 		public partial class Attribute

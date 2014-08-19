@@ -42,29 +42,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HelloInt.cs" />
-    <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedNativeLibrary Include="..\..\hello-int\libs\armeabi\libhello_int.so">
+    <EmbeddedNativeLibrary Include="..\..\HelloInt.Native\libs\armeabi\libhello_int.so">
       <Link>lib\armeabi\libhello_int.so</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedNativeLibrary>
-    <EmbeddedNativeLibrary Include="..\..\hello-int\libs\armeabi-v7a\libhello_int.so">
+    <EmbeddedNativeLibrary Include="..\..\HelloInt.Native\libs\armeabi-v7a\libhello_int.so">
       <Link>lib\armeabi-v7a\libhello_int.so</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedNativeLibrary>
-    <EmbeddedNativeLibrary Include="..\..\hello-int\libs\x86\libhello_int.so">
+    <EmbeddedNativeLibrary Include="..\..\HelloInt.Native\libs\x86\libhello_int.so">
       <Link>lib\x86\libhello_int.so</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedNativeLibrary>
-    <None Include="Resources\AboutResources.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\Values\Strings.xml" />
   </ItemGroup>
   <ItemGroup />
+  <Import Project="..\HelloInt.Shared\HelloInt.Shared.projitems" Label="Shared" Condition="Exists('..\HelloInt.Shared\HelloInt.Shared.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

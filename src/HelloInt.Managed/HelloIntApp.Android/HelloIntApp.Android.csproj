@@ -9,8 +9,8 @@
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HelloIntPInvoke</RootNamespace>
-    <AssemblyName>HelloIntPInvoke</AssemblyName>
+    <RootNamespace>HelloIntApp</RootNamespace>
+    <AssemblyName>HelloIntApp</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidApplication>true</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
@@ -71,9 +71,9 @@
     <Content Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HelloInt\HelloInt.csproj">
+    <ProjectReference Include="..\HelloIntLib.Android\HelloIntLib.Android.csproj">
       <Project>{2f4dc200-b349-4c85-a8d5-043121fe23c9}</Project>
-      <Name>HelloInt</Name>
+      <Name>HelloIntLib.Android</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

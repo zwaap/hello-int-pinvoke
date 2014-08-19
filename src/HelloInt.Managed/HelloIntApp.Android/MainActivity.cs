@@ -6,7 +6,7 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
-namespace HelloIntPInvoke
+namespace HelloIntApp
 {
     [Activity(Label = "HelloIntPInvoke", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
