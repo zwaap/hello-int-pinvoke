@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8C75A10C-280D-4DA3-9D05-07366B5E45D9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>hello-int</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F4D3C694-F8E6-4275-BECE-4D6DD7D8A7AF</key>
+		<string>https://github.com/zwaap/hello-int-pinvoke</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>src/hello-int/iOS/hello-int/hello-int.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F4D3C694-F8E6-4275-BECE-4D6DD7D8A7AF</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zwaap/hello-int-pinvoke</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F4D3C694-F8E6-4275-BECE-4D6DD7D8A7AF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F4D3C694-F8E6-4275-BECE-4D6DD7D8A7AF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>hello-int-pinvoke</string>
+		</dict>
+	</array>
+</dict>
+</plist>

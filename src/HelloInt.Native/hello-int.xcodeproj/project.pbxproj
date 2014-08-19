@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95BEBC94199E738E0014FBA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BEBC93199E738E0014FBA8 /* Foundation.framework */; };
+		95BEBCC3199EA4190014FBA8 /* hello_int_exports.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95BEBCC2199EA4190014FBA8 /* hello_int_exports.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		95BEBC8E199E738E0014FBA8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		95BEBC90199E738E0014FBA8 /* libhello-int.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libhello-int.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95BEBC93199E738E0014FBA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		95BEBC97199E738E0014FBA8 /* hello-int-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "hello-int-Prefix.pch"; path = "iOS/hello-int-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		95BEBCC2199EA4190014FBA8 /* hello_int_exports.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = hello_int_exports.cpp; path = jni/hello_int_exports.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95BEBC8D199E738E0014FBA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BEBC94199E738E0014FBA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95BEBC87199E738E0014FBA8 = {
+			isa = PBXGroup;
+			children = (
+				95BEBC95199E738E0014FBA8 /* hello-int */,
+				95BEBC92199E738E0014FBA8 /* Frameworks */,
+				95BEBC91199E738E0014FBA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95BEBC91199E738E0014FBA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95BEBC90199E738E0014FBA8 /* libhello-int.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95BEBC92199E738E0014FBA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95BEBC93199E738E0014FBA8 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95BEBC95199E738E0014FBA8 /* hello-int */ = {
+			isa = PBXGroup;
+			children = (
+				95BEBCC2199EA4190014FBA8 /* hello_int_exports.cpp */,
+				95BEBC96199E738E0014FBA8 /* Supporting Files */,
+			);
+			path = "hello-int";
+			sourceTree = "<group>";
+		};
+		95BEBC96199E738E0014FBA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95BEBC97199E738E0014FBA8 /* hello-int-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95BEBC8F199E738E0014FBA8 /* hello-int */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95BEBCB3199E738E0014FBA8 /* Build configuration list for PBXNativeTarget "hello-int" */;
+			buildPhases = (
+				95BEBC8C199E738E0014FBA8 /* Sources */,
+				95BEBC8D199E738E0014FBA8 /* Frameworks */,
+				95BEBC8E199E738E0014FBA8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hello-int";
+			productName = "hello-int";
+			productReference = 95BEBC90199E738E0014FBA8 /* libhello-int.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95BEBC88199E738E0014FBA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zwaap;
+			};
+			buildConfigurationList = 95BEBC8B199E738E0014FBA8 /* Build configuration list for PBXProject "hello-int" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 95BEBC87199E738E0014FBA8;
+			productRefGroup = 95BEBC91199E738E0014FBA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95BEBC8F199E738E0014FBA8 /* hello-int */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95BEBC8C199E738E0014FBA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BEBCC3199EA4190014FBA8 /* hello_int_exports.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		95BEBCB1199E738E0014FBA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95BEBCB2199E738E0014FBA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95BEBCB4199E738E0014FBA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/hello_int.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS/hello-int-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		95BEBCB5199E738E0014FBA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/hello_int.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS/hello-int-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95BEBC8B199E738E0014FBA8 /* Build configuration list for PBXProject "hello-int" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95BEBCB1199E738E0014FBA8 /* Debug */,
+				95BEBCB2199E738E0014FBA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95BEBCB3199E738E0014FBA8 /* Build configuration list for PBXNativeTarget "hello-int" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95BEBCB4199E738E0014FBA8 /* Debug */,
+				95BEBCB5199E738E0014FBA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95BEBC88199E738E0014FBA8 /* Project object */;
+}
